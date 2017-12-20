@@ -1,10 +1,9 @@
 {
   "name": "badtomcat/reflection",
-  "description": "用于管理网站配置项",
-  "type": "project",
+  "description": "获取MYSQL数据库信息,表信息",
+  "type": "library",
   "keywords": [
     "badtomcat",
-    "tiananwei",
     "db"
   ],
   "homepage": "https://github.com/badtomcat/reflection",
@@ -17,9 +16,9 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "badtomcat/connection": "dev-master",
-    "badtomcat/filesystem": "dev-master",
-    "badtomcat/cache": "dev-master"
+    "badtomcat/connection": "~0.0.1",
+    "badtomcat/filesystem": "~0.0.1",
+    "badtomcat/cache": "~0.0.1"
   },
   "require-dev": {
     "phpunit/phpunit": "~5.0"
@@ -29,19 +28,5 @@
     "psr-4": {
       "Badtomcat\\Db\\": "src/"
     }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/badtomcat/connection.git"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/badtomcat/cache.git"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/badtomcat/filesystem.git"
-    }
-  ]
+  }
 }
